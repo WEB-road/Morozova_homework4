@@ -1,0 +1,230 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html,body{
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: local('../fonts/PlayfairDisplay-Regular'), url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Ubuntu";
+    src: local('../fonts/Ubuntu-Light'), url('../fonts/Ubuntu-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+.cover{
+	max-width: 1200px;
+    margin: 70px auto;
+    font-family: "Playfair Display";
+}
+.block{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin: 0 70px;
+}
+.image{
+	width: 119px;
+	height: 23px;
+}
+.list{
+	width: 575px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	line-height: 24px;
+	color: #626262;
+	font-weight: 400;
+}
+.image1{
+	width: 1062px;
+	display: flex;
+    height: 650px;
+    margin: 0 auto;
+}
+.cover1{
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: "Playfair Display";
+}
+.block1{
+	width: 900px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+.font{
+	font-size: 14px;
+	color: #b4ad9e;
+	font-weight: 300;
+	font-family: "Ubuntu";
+	margin-top: 30px; 
+}
+.font1{
+	font-size: 30px;
+	color: #626262;
+	font-weight: 400;
+	font-family: "Playfair Display";
+	margin: 30px 0 35px 0;
+}
+.font2{
+	font-size: 14px;
+	line-height: 24px;
+	color: #626262;
+	font-weight: 400;
+	font-family: "Playfair Display";
+	margin-bottom: 52px;
+}
+.block2{
+	width: 900px;
+	display: flex;
+	flex-direction: column;
+	margin: 130px auto;
+}
+.block_item{
+	height: 630px;
+	display: flex;
+	justify-content: space-between;
+}
+.left{
+	width: 420px;
+	height: 300px;
+	margin-right: 70px; 
+}
+.right{
+	width: 420px;
+	height: 300px;
+}
+.wrapper{
+	max-width: 1200px;
+	margin: 45px auto;
+	font-family: "Playfair Display";
+}
+.block3{
+	width: 100%;
+	display: flex;
+	background-color: #f0f0f0;
+	justify-content: center;
+	flex-direction: column;
+}
+.block_item1{
+	width: 375px;
+	display: flex;
+	padding-top: 80px;
+	margin: 0 auto;
+}
+.font3{
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: #333333;
+	font-weight: 400;
+	font-family: "Playfair Display";
+}
+.block_item2{
+	width: 760px;
+	display: flex;
+	padding: 80px 0 80px 405px;
+	justify-content: space-between;
+}
+.font4{
+	width: 330px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #626262;
+	font-weight: 400;
+	font-family: "Playfair Display";
+}
+.block5{
+    display: flex;
+    justify-content: center;
+    margin: 160px 0 130px 0px;
+}
+.block_button{
+    width: 165px;
+    border: 1px solid #161616; 
+    line-height: 24px;
+	color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 35px;
+    text-align: center;
+    font-family: "Playfair Display";
+}  
+.color1{
+	color: #626262;
+}
+.cover2{
+	max-width: 1200px;
+	margin: 45px auto;
+	font-family: "Playfair Display";
+}
+.wrapper1{
+	width: 100%;
+	display: flex;
+	background-color: #f0f0f0;
+	justify-content: space-between;
+}
+.block6{
+	width: 330px;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0 0 150px;
+}
+.list1{
+	width: 140px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	line-height: 24px;
+	color: #626262;
+	font-weight: 400;
+	padding: 40px 40px 40px 0px;
+}
+.text{
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+	font-weight: 400;
+}
+a, .color {
+    padding: 2px;
+   }
+   a:visited {
+    color: #626262;
+   } 
+   a:hover {
+    text-decoration: none;
+    color: #fff;  
+    background: #e24486;
+   }
+h4, .list { 
+    text-transform: uppercase;
+   }
